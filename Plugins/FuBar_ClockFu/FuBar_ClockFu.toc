@@ -1,0 +1,24 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffClock|r|cff00ff00Fu|r
+## Notes: A simplistic clock.
+## Notes-ruRU: Упрощенные часы.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Website: http://ckknight.wowinterface.com/
+## X-Commands: /clockfu
+## X-Category: Interface Enhancements
+## Dependencies: FuBar
+## OptionalDeps: Ace2, DewdropLib, TabletLib, FuBarPlugin-2.0
+## SavedVariables: ClockFuDB
+## Version: 2.0
+## LoadOnDemand: 1
+
+ClockFuLocale-enUS.lua
+ClockFuLocale-ruRU.lua
+ClockFuLocale-deDE.lua
+ClockFuLocale-frFR.lua
+ClockFuLocale-koKR.lua
+ClockFuLocale-zhCN.lua
+ClockFuLocale-zhTW.lua
+
+ClockFu.lua

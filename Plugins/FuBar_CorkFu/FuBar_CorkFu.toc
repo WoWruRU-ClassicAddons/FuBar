@@ -1,0 +1,37 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffCork|r|cff00ff00Fu|r
+## Notes: Track needed buffs, debuffs and more
+## Notes-ruRU: Отслеживание необходимых баффов, дебаффов и многое другое.
+## Author: Tekkub Stoutwrithe
+## X-Credits: Thiana (Warlock modules), Gnancy (Soullink module)
+## Version: 2.0
+## X-Category: Buffs
+## X-AceForum: 1459
+## OptionalDeps: AbacusLib, Ace2, BabbleLib, CrayonLib, CompostLib, DewdropLib, FuBar, GratuityLib, PeriodicTable, SpecialEventsEmbed, TabletLib, TekTechEmbed
+## X-Embeds: AbacusLib, Ace2, BabbleLib, CrayonLib, CompostLib, DewdropLib, GratuityLib, PeriodicTable, SpecialEventsEmbed, TabletLib, TekTechEmbed
+## SavedVariables: CorkFuDB
+
+CorkFuLocals_enUS.lua
+CorkFuLocals_ruRU.lua
+
+Core.lua
+BuffTemplate.lua
+
+ClassDruid.lua
+ClassHunter.lua
+ClassMage.lua
+ClassPaladin.lua
+ClassPriest.lua
+ClassRogue.lua
+ClassShaman.lua
+ClassWarrior.lua
+ClassWarlock.lua
+
+ClassHunterPetHappy.lua
+ClassWarlockSoulLink.lua
+
+ADCommission.lua
+Tracking.lua
+Minipet.lua
+Repairs.lua
+Reagents.lua

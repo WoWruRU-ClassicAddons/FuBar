@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffCRDelay|r|cff00ff00Fu|r
+## Notes: Corpse Recovery Delay timer for FuBar2.
+## Notes-ruRU: Задержка восстановления таймера труп для FuBar2.
+## Author: Mynithrosil of Feathermoon
+## Dependencies: !Libs
+## X-eMail: hyperactiveChipmunk@gmail.com
+## X-Website: http://hyperactiveChipmunk.wowinterface.com
+## X-Category: Interface Enhancements
+## X-Commands: /crdelayfu, /crdfu
+## OptionalDependencies: Ace2, FuBar, FuBarPlugin-2.0 AbacusLib, CrayonLib, Metrognome
+## Version: 2.0
+## LoadOnDemand: 1
+
+CRDelayFu.lua

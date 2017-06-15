@@ -1,0 +1,19 @@
+## Interface: 11100
+## Name: FuBar - ScaleFu
+## Title: FuBar - |cffffffffScale|r|cff00ff00Fu|r
+## Notes: UI Scale Plugin for FuBar.
+## Notes-ruRU: Плагин масштаб UI для FuBar.
+## Version: 2.0.04
+## X-Category: Interface Enhancements
+## X-Date: 2006-06-06
+## X-eMail: global@g-ball.com
+## X-Website: http://www.wowinterface.com/downloads/fileinfo.php?id=5024
+## X-Commands: /scalefu
+## Author: Global
+## Dependencies: FuBar
+## SavedVariables: ScaleFuDB
+## LoadOnDemand: 1
+
+ScaleFuLocals.lua
+
+ScaleFu.lua

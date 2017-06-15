@@ -1,0 +1,14 @@
+## Interface: 11200
+## Author: Phyber of BloodHoof
+## Title: FuBar - |cffffffffGCIn|r|cff00ff00Fu|r
+## Notes: GCInfo via FuBar
+## Notes-ruRU: GCInfo через FuBar
+## Version: 2.0
+## Dependencies: FuBar
+## OptionalDeps: Ace2, Metrognome, TabletLib
+## SavedVariables: GCInFuDB
+## X-Category: Development Tools
+
+GCInFuLocals.lua
+
+GCInFu.lua

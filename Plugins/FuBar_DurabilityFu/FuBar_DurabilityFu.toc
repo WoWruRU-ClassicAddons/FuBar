@@ -1,0 +1,25 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffDurability|r|cff00ff00Fu|r
+## Notes: Keeps track of durability and pops up a dialog to repair when you go to a vendor who can.
+## Notes-ruRU: Отслеживает прочность и показывает всплывающее окно для ремонта, когда вы подходите к торговцу, который умеет чинить.
+## Notes-zhTW: 持續追蹤裝備耐久度，並在可修裝NPC處顯示是否要自動修裝的對話框。
+## Version: 2.0
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Category: Inventory
+## X-Website: http://ckknight.wowinterface.com/
+## X-Commands: /durfu, /durabilityfu
+## Dependencies: FuBar
+## OptionalDeps: Ace2, Deformat, DewdropLib, GratuityLib, FuBarPlugin-2.0, TabletLib
+## SavedVariables: DurabilityFuDB
+## LoadOnDemand: 1
+
+DurabilityFuLocale-enUS.lua
+DurabilityFuLocale-ruRU.lua
+DurabilityFuLocale-deDE.lua
+DurabilityFuLocale-frFR.lua
+DurabilityFuLocale-koKR.lua
+DurabilityFuLocale-zhCN.lua
+DurabilityFuLocale-zhTW.lua
+
+DurabilityFu.lua

@@ -1,0 +1,23 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffTransporter|r|cff00ff00Fu|r
+## Notes: Easy access to transportation methods
+## Notes-ruRU: Легкий доступ к методам транспортировки
+## Author: Prandur
+## ReleaseDate: 2006-11-26 18:13:26 -0500 (Sun, 26 Nov 2006)
+## Version: 2.0.$Rev: 18122 $
+## X-Category: Interface Enhancements
+## X-WoWIPortal: prandur
+## X-AceForum: 1243
+## Dependencies: !Libs
+## OptionalDeps: FuBar, Ace2, PeriodicTable, FuBarPlugin-2.0, Metrognome, TabletLib, DewdropLib, CompostLib, AbacusLib
+## X-Embeds: Ace2, PeriodicTable, FuBarPlugin-2.0, Metrognome, TabletLib, DewdropLib, CompostLib, AbacusLib
+## SavedVariables: TransporterFuDB
+## SavedVariablesPerCharacter: TransporterFuCharDB
+## LoadOnDemand: 0
+
+TransporterFu_Locale_koKR.lua
+TransporterFu_Locale_deDE.lua
+TransporterFu_Locale_enUS.lua
+TransporterFu_Locale_ruRU.lua
+
+TransporterFu.lua

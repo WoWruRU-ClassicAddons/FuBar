@@ -1,0 +1,27 @@
+local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+
+L:RegisterTranslations("ruRU", function() return {
+	["Argent Dawn Commission"] = "Жетон Серебряного Рассвета",
+	["Tracking"] = "Отслеживание",
+	["Durability"] = "Прочность",
+	["Minipet"] = "Мини-питомец",
+	["Hearthstone"] = "Камень возвращения",
+	["Astral Recall"] = "Астральное возвращение",
+	["Teleport"] = "Телепортация",
+	["No Filter"] = "Без фильтра",
+	["Disabled"] = "Отключено",
+	["Unit "] = "Юнит ",
+	["Party "] = "Группа ",
+	["Target Player"] = "Цель игрока",
+	["Target NPC"] = "Цель НПС",
+	["Unit"] = "Юнит",
+	["Class"] = "Класс",
+	["Party"] = "Группа",
+	["Everyone"] = "Все",
+	["Rescan All"] = "Повтор. сканирование",
+	["FuBar options"] = "Настройки FuBar",
+	["Your equipment is damaged"] = "Ваша экипировка повреждена",
+	["Self"] = "На себя",
+	["Feed Pet Effect"] = "Эффект кормления питомца",
+	["Pet Happiness"] = "Счастье питомца",
+} end)

@@ -1,0 +1,29 @@
+## Interface: 11200
+## Title: FuBar 2.0 |cff7fff7f -Ace2-|r
+## Notes: A panel that modules can plug into.
+## Notes-ruRU: Панели для отображения различных плагинов.
+## Notes-deDE: Eine Leiste in der sich Module einbinden können.
+## Notes-frFR: Un panneau dans lequel des modules peuvent se brancher.
+## Notes-zhCN: 插件式信息面板。
+## Author: ckknight
+## Dependencies: !Libs
+## X-eMail: ckknight@gmail.com
+## X-Website: http://ckknight.wowinterface.com/
+## X-Category: Interface Enhancements
+## X-Commands: /fubar, /fb, /fbar
+## SavedVariables: FuBar2DB
+## OptionalDeps: Ace2, CompostLib, DewdropLib, JostleLib, FuBar-compat-1.2
+## X-Embeds: Ace2, CompostLib, DewdropLib, JostleLib
+## X-WoWIPortal: ckknight
+
+Locale\FuBar-Locale-enUS.lua
+Locale\FuBar-Locale-ruRU.lua
+Locale\FuBar-Locale-deDE.lua
+Locale\FuBar-Locale-frFR.lua
+Locale\FuBar-Locale-koKR.lua
+Locale\FuBar-Locale-zhCN.lua
+Locale\FuBar-Locale-zhTW.lua
+Locale\FuBar-Locale-koKR.lua
+
+FuBar_Panel.lua
+FuBar.lua

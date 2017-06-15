@@ -1,0 +1,18 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffMCP|r|cff00ff00Fu|r
+## Notes: Enable/Disable addons for your character in game
+## Notes-ruRU: Включение/Выключение аддонов для вашего персонажа в игре
+## Notes-koKR: 게임상에서 케릭터가 사용하는 애드온의 사용 여부를 변경합니다.
+## Author: Schelli (Copy of original MCP for fubar)
+## Version: 1.0.$Rev: 14670 $
+## X-ReleaseDate: 2006-10-21 13:14:34 -0400 (Sat, 21 Oct 2006)
+## X-Category: Interface Enhancements
+## X-Commands: /MCPFu
+## Dependencies: FuBar
+## OptionalDeps: Ace2, Tablet-2.0, FuBarPlugin-2.0
+## LoadOnDemand: 1
+## SavedVariables: MCPFuDB
+
+MCPFuLocals.lua
+
+FuBar_MCPFu.lua

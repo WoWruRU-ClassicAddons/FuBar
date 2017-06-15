@@ -1,0 +1,16 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffMoney|r|cff00ff00Fu|r
+## Notes: Keeps track of current money and all your characters on one realm.
+## Notes-ruRU: Отслеживает деньги всех ваших персонажей&
+## Author: phyber
+## Dependencies: !Libs
+## OptionalDeps: FuBar
+## X-Commands: /monfu, /moneyfu
+## SavedVariables: MoneyFuDB
+## SavedVariablesPerCharacter: MoneyFuCharDB
+## Version: 2
+## X-Category: Interface Enhancements
+
+MoneyFuLocals.lua
+
+MoneyFu.lua

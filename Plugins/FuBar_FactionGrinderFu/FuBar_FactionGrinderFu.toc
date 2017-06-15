@@ -1,0 +1,13 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffFactionGrinder|r|cff00ff00Fu|r
+## Notes: Keeps track of (eventually) all factions.
+## Notes-ruRU: FuBar плагин для FactionGrinder
+## Author: Tiok - US Thrall
+## Dependencies: FactionGrinder, FuBar
+## OptionalDeps: Ace2
+## SavedVariables: FactionGrinderFuDB
+## Version: 1.0
+## X-Category: Inventory
+## LoadOnDemand: 1
+
+FactionGrinderFu.lua

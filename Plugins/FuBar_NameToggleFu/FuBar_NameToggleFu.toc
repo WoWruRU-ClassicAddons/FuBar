@@ -1,0 +1,15 @@
+﻿## Interface: 11200
+## Title: FuBar - |cffffffffName Toggle|cff00ff00Fu|r
+## Notes: Toggles player names.
+## Notes-ruRU: Переключаемые имена игроков.
+## Author: phyber
+## Version: 2.0
+## Dependencies: !Libs
+## LastUpdate: $Date: 2006-10-14 12:04:56 -0400 (Sat, 14 Oct 2006) $
+## SavedVariables: FuBar_NameToggleDB
+## OptionalDeps: Ace2, DewdropLib, TabletLib, FuBar
+## X-Credits: Tekkub
+
+NameToggleFuLocals.lua
+
+Core.lua

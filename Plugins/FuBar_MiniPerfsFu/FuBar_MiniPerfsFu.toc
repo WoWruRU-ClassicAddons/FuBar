@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffMiniPerfs|r|cff00ff00Fu|r
+## Notes: A lightweight and minimalistic performance monitor
+## Notes-ruRU: Легкий и минималистичный монитор производительности
+## Author: Neronix
+## Dependencies: !Libs
+## X-eMail: neronix@gmail.com
+## OptionalDeps: FuBarPlugin-2.0, TabletLib, DewdropLib, AbacusLib, CrayonLib, FuBar
+## Version: 1.0
+## X-Category: Miscellaneous
+## SavedVariables: MiniPerfsFuDB
+
+MiniPerfsFuLocals.lua
+
+MiniPerfsFu.lua

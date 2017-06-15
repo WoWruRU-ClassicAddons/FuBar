@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffNavigator|r|cff00ff00Fu|r
+## Notes: A lightweight and minimalistic coordinate mod
+## Notes-ruRU: Легкие и минималистичные координаты
+## Author: Neronix
+## X-eMail: neronix@gmail.com
+## Dependencies: !Libs
+## OptionalDeps: TabletLib, DewdropLib, FuBarPlugin-2.0, FuBar
+## Version: 1.0
+## X-Category: Miscellaneous
+## SavedVariables: NavigatorFuDB
+
+NavigatorFuLocals.lua
+
+NavigatorFu.lua

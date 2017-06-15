@@ -1,0 +1,17 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffPerfectRaid|r|cff00ff00Fu|r
+## Notes: Fubar 2 plugin for PerfectRaid
+## Notes-ruRU: Fubar 2 плагин для PerfectRaid
+## Notes-koKR: PerfectRaid를 위한 FuBar2용 플러그인
+## Author: Velyse of Malygos
+## Version: 1.0
+## X-Commands: /PerfectRaidFu
+## X-Category: Interface Enhancements
+## Dependencies: FuBar, PerfectRaid
+## OptionalDeps: Ace2, Tablet-2.0, FuBarPlugin-2.0
+## LoadOnDemand: 1
+## SavedVariables: Fubar_PerfectRaidDB
+
+PerfectRaidFuLocals.lua
+
+PerfectRaidFu.lua

@@ -1,0 +1,24 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffAmmo|r|cff00ff00Fu|r
+## Notes: Keeps track of you ammunition, be it with thrown weapons or with bullets/arrows.
+## Notes-ruRU: Отслеживает ваши боеприпасы для метательного оружия или пули/стрелы.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Website: http://ckknight.wowinterface.com/
+## X-Category: Inventory
+## X-Commands: /ammofu, /amfu
+## Dependencies: FuBar
+## OptionalDeps: Ace2
+## SavedVariables: AmmoFuDB
+## Version: 2.0
+## LoadOnDemand: 1
+
+AmmoFuLocale-enUS.lua
+AmmoFuLocale-ruRU.lua
+AmmoFuLocale-deDE.lua
+AmmoFuLocale-frFR.lua
+AmmoFuLocale-koKR.lua
+AmmoFuLocale-zhCN.lua
+AmmoFuLocale-zhTW.lua
+
+AmmoFu.lua

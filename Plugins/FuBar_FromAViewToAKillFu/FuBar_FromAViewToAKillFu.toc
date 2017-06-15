@@ -1,0 +1,17 @@
+## Interface: 11220
+## Title: FuBar - |cffffffffFrom A View To A Kill |r|cff00ff00Fu|r
+## Notes: As a raid leader allows you to assign raidicons to always appear on targets of specified players.
+## Notes-ruRU: Позволяет лидеру рейда назначать raidicons по всем целям указанных игроков.
+## Author: neolith
+## Dependencies: !Libs
+## OptionalDeps: FuBar
+## SavedVariables: FuBar_FromAViewToAKillFuDB
+## SavedVariablesPerCharacter: FuBar_FromAViewToAKillFuDBPC
+## Version: BETA
+## X-Category: Raid
+
+Locale_deDE.lua
+Locale_ruRU.lua
+Locale_enUS.lua
+
+Core.lua

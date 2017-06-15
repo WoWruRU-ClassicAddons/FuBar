@@ -1,0 +1,19 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffSWStats|r|cff00ff00Fu|r
+## Notes: Fubar2 plugin for SW_Stats
+## Notes-ruRU: Fubar2 плагин для SW_Stats
+## Notes-koKR: SW_Stats를 위한 FuBar용 플러그인
+## Notes-zhTW: SW_Stats 的 FuBar 模組。
+## Author: smuggles
+## Version: 1.0.$Rev: 15869 $
+## X-ReleaseDate: 2006-11-03 19:57:16 -0500 (Fri, 03 Nov 2006)
+## X-Category: Interface Enhancements
+## X-eMail: schellixx@gmx.de
+## Dependencies: FuBar, SW_Stats
+## OptionalDeps: Ace2, Tablet-2.0, FuBarPlugin-2.0
+## LoadOnDemand: 1
+## SavedVariables: Fubar_SWStatsDB
+
+SWStatsFuLocals.lua
+
+SWStatsFu.lua

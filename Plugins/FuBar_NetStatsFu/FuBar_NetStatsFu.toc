@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffNetStats|r|cff00ff00Fu|r
+## Notes: A lightweight and minimalistic latency monitor
+## Notes-ruRU: Легкий и минималистичный монитор задержки
+## Author: phyber
+## Dependencies: !Libs
+## OptionalDeps: FuBar
+## Version: 2.0
+## X-Category: Miscellaneous
+## X-Credit: Neronix
+## SavedVariables: NetStatsFuDB
+
+NetStatsFuLocals.lua
+
+NetStatsFu.lua

@@ -1,0 +1,24 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffLocation|r|cff00ff00Fu|r
+## Notes: Keeps track of your current location.
+## Notes-ruRU: Отслеживание вашего текущего местоположения.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Website: http://ckknight.wowinterface.com/
+## X-Category: Map
+## X-Commands: /locfu, /locationfu
+## Dependencies: FuBar
+## OptionalDeps: Ace2, JostleLib, BabbleLib, TouristLib, FuBarPlugin-2.0, DewdropLib, TabletLib
+## SavedVariables: LocationFuDB
+## Version: 2.0
+## LoadOnDemand: 1
+
+LocationFuLocale-enUS.lua
+LocationFuLocale-ruRU.lua
+LocationFuLocale-deDE.lua
+LocationFuLocale-frFR.lua
+LocationFuLocale-koKR.lua
+LocationFuLocale-zhCN.lua
+LocationFuLocale-zhTW.lua
+
+LocationFu.lua

@@ -1,0 +1,27 @@
+local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+
+L:RegisterTranslations("enUS", function() return {
+	["Argent Dawn Commission"] = true,
+	["Tracking"] = true,
+	["Durability"] = true,
+	["Minipet"] = true,
+	["Hearthstone"] = true,
+	["Astral Recall"] = true,
+	["Teleport"] = true,
+	["No Filter"] = true,
+	["Disabled"] = true,
+	["Unit "] = true,
+	["Party "] = true,
+	["Target Player"] = true,
+	["Target NPC"] = true,
+	["Unit"] = true,
+	["Class"] = true,
+	["Party"] = true,
+	["Everyone"] = true,
+	["Rescan All"] = true,
+	["FuBar options"] = true,
+	["Your equipment is damaged"] = true,
+	["Self"] = true,
+	["Feed Pet Effect"] = true,
+	["Pet Happiness"] = true,
+} end)

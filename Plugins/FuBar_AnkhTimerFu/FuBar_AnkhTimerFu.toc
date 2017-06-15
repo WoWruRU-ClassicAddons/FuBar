@@ -1,0 +1,18 @@
+## Interface: 11100
+## Title: FuBar - |cffffffffAnkhTimer|r|cff00ff00Fu|r
+## Notes: Keeps track of your ankhs, and shows the time until you can use one again
+## Notes-ruRU: Отслеживает ваши кресты, и показывает время, когда вы можете использовать снова
+## Author: Moonsorrow
+## Dependencies: FuBar
+## SavedVariables: AnkhTimerFuDB
+## X-Build: $Revision: 11735 $
+## X-ReleaseDate: "$Date: 2006-09-23 05:19:32 -0400 (Sat, 23 Sep 2006) $"
+## X-Category: Shaman
+## X-Commands: /ankhtimerfu
+## X-eMail: moonsorrow@gmx.de
+## X-Website: http://www.for-the-horde.de
+## Version: 0.7
+
+AnkhTimerFuLocale.lua
+
+AnkhTimerFu.lua

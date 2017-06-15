@@ -1,0 +1,22 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffItemBonuses|r|cff00ff00Fu|r
+## Notes: Easy display of item bonus info on FuBar
+## Notes-ruRU: Легкое отображение информации о бонусах предметов на FuBar
+## Author: Prandur
+## X-Credits: Ace2'd by Nevcairiel
+## LastUpdate: "$Date: 2006-09-29 04:36:21 -0400 (Fri, 29 Sep 2006) $"
+## Version: 2.0.$Rev: 12194 $
+## X-Category: Interface Enhancements
+## X-WoWIPortal: prandur
+## X-AceForum: 1148
+## Dependencies: BonusScanner, !Libs
+## OptionalDeps: FuBar, Ace2, CompostLib, FuBarPlugin-2.0, TabletLib, DewdropLib, AbacusLib
+## X-Embeds: Ace2, CompostLib, FuBarPlugin-2.0, TabletLib, DewdropLib, AbacusLib
+## SavedVariables: FuBar_ItemBonusesDB
+## LoadOnDemand: 0
+
+ItemBonusesFu_Locale_enUS.lua
+ItemBonusesFu_Locale_ruRU.lua
+ItemBonusesFu_Locale_deDE.lua
+
+ItemBonusesFu.lua

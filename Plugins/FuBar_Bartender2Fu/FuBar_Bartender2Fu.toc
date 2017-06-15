@@ -1,0 +1,18 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffBartender2|r|cff00ff00Fu|r
+## Notes: FuBar 2.0 Plugin for Bartender2
+## Notes-ruRU: FuBar 2.0 плагин для Bartender2
+## Author: Nevcairiel
+## X-Category: Action Bars
+## X-eMail: mail@nevcairiel.net
+## X-Website: http://www.nevcairiel.net
+## Dependencies: Bartender2, !Libs
+## OptionalDeps: Ace2, FuBar, FuBarPlugin-2.0, TabletLib, DewdropLib
+## SavedVariables: Bartender2FuDB
+## Version: 2.0.$Revision: 12987 $
+## LoadOnDemand: 0
+
+Bartender2FuLocals-enUS.lua
+Bartender2FuLocals-ruRU.lua
+
+Bartender2Fu.lua

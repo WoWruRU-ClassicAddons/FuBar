@@ -1,0 +1,20 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffPursue|r|cff00ff00Fu|r
+## Notes: Easily change tracking abilities with FuBar.
+## Notes-ruRU: Легкое изменение отслеживаемых способностей с FuBar.
+## Version: 1
+## X-ReleaseDate: $Date: 2006-10-04 18:33:55 -0400 (Wed, 04 Oct 2006) $
+## Author: Eternally777
+## X-eMail: Eternally777@gmail.com
+## X-Credits: Corgi
+## X-Category: Tradeskill
+## X-RelSite-Curse: 5396
+## X-Commands: /pursuefu, /pfu
+## OptionalDeps: FuBar
+## X-Embeds: Ace2, FuBarPlugin-2.0, BabbleLib, CrayonLib, DewdropLib, TabletLib
+## SavedVariables: PursueFu2DB
+## SavedVariablesPerChar: PursueFu2PerCharDB
+
+PursueFuLocals.lua
+
+FuBar_PursueFu.lua

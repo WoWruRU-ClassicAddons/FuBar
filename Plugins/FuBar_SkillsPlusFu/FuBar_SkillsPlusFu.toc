@@ -1,0 +1,17 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffSkillsPlus|r|cff00ff00Fu|r
+## Version: 2.1 $Revision: 0000 $
+## Author: Jauhawk
+## eMail: jayhawk@demon.eyrie.nl
+## Notes: Shows skills in a tooltip and allow them to be used.
+## Notes-ruRU: Показывает навыки в подсказке позволяет использовать их.
+## Dependencies: FuBar
+## OptionalDeps: Ace2, BabbleLib
+## SavedVariables: SkillsPlusFuDB
+## X-Category: Interface Enhancements
+## LoadOnDemand: 1
+
+SkillsPlusFuLocals-enUS.lua
+SkillsPlusFuLocals-ruRU.lua
+
+SkillsPlusFu.lua

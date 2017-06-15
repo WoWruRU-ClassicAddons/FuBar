@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffSSHonor|r|cff00ff00Fu|r
+## Notes: Fubar plugin for SSHonor
+## Notes-ruRU: Fubar плагин для SSHonor
+## DefaultState: enabled
+## Dependencies: FuBar, SSHonor
+
+SSHonor_Fu.xml

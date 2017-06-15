@@ -1,0 +1,13 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffuFriends|r|cff00ff00Fu|r
+## Notes: Minimalist friends display.
+## Notes-ruRU: Минималистичное отображение друзей.
+## Author: Thiana of Kirin Tor
+## Dependencies: FuBar
+## OptionalDeps: Ace2, TabletLib, DewdropLib, CompostLib, BabbleLib
+## SavedVariables: uFriendsDB
+## Version: 1.01
+
+Locals.lua
+
+Core.lua

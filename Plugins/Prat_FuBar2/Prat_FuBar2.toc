@@ -1,0 +1,17 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffPrat|r|cff00ff00Fu|r
+## Notes: Module for Prat that add FuBar2 support
+## Notes-ruRU: Модуль для Prat, которыей добавляют поддержку FuBar2
+## Version: 1.0
+## Author: Prat Development Team
+## X-Category: Chat/Communication
+## X-Website: http://www.wowace.com/mediawiki/index.php?title=Prat
+## X-AceForum: 2404
+## X-Credits: Ammo
+## Dependencies: Prat, FuBar
+## OptionalDeps: FuBarPlugin-2.0
+## X-Embeds: FuBarPlugin-2.0
+## SavedVariables: Prat_FuBar2DB
+
+Prat_FuBar2.lua
+icon.tga

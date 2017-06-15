@@ -1,0 +1,34 @@
+## Interface: 11200
+## Title: FuBar-compat-1.2
+## Notes: Compatibility package to make FuBar-1.2 plugins work with FuBar-2.0
+## Notes-ruRU: Пакет совместимости для работы плагинов FuBar-1.2 на FuBar-2.0
+## Author: ckknight
+## Dependencies: !Libs
+## X-eMail: ckknight@gmail.com
+## X-Website: http://ckknight.wowinterface.com/
+
+Libs\CompostLib\CompostLib.lua
+Libs\Metrognome\MetrognomeLib.lua
+Libs\BabbleLib-1.0\BabbleLib.lua
+Libs\BabbleLib-Core\BabbleLib-Core.lua
+Libs\BabbleLib-Boss\BabbleLib-Boss.lua
+Libs\BabbleLib-Class\BabbleLib-Class.lua
+Libs\BabbleLib-Zone\BabbleLib-Zone.lua
+Libs\BabbleLib-Spell\BabbleLib-Spell.lua
+Libs\BabbleLib-SpellTree\BabbleLib-SpellTree.lua
+Libs\SEEmbedKeys\SEEmbedKeys.lua
+Libs\GratuityLib\GratuityLib.lua
+Libs\DewdropLib\DewdropLib.lua
+Libs\TabletLib\TabletLib.lua
+Libs\AbacusLib\AbacusLib.lua
+Libs\CrayonLib\CrayonLib.lua
+Libs\FuBarPlugin-1.2\FuBarPlugin-1.2.lua
+
+FuBar-compat-1.2.xml
+FuBar-compat-1.2.lua
+FuBarUtils.lua
+
+Locale\FuBarLocals-ruRU.lua
+Locale\FuBarLocals-deDE.lua
+Locale\FuBarLocals-frFR.lua
+Locale\FuBarLocals.lua

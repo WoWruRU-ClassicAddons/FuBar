@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffTradeTracker|r|cff00ff00Fu|r
+## Author: borohir
+## Version: 1.0.1
+## Notes: TradeTrackerFu test.
+## Notes-ruRU: Отслеживание изготовления предметов профессиями.
+## X-Category: Interface Enhancements
+## RequiredDeps: FuBar
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## SavedVariables: TradeTrackerFuDB
+
+TradeTrackerFu.lua
+TradeTrackerFuLocale.lua

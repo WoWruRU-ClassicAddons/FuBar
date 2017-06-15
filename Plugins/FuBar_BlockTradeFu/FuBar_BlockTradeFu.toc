@@ -1,0 +1,13 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffBlockTrade|r|cff00ff00Fu|r
+## Notes: Block trades
+## Notes-ruRU: Блокировка обменов
+## Version: 1.1
+## Author: flimflam/jim
+## Dependencies: !Libs
+## X-Category: Interface Enhancements
+## OptionalDeps: Ace2, FubarPlugin-2.0, Dewdrop-2.0, Tablet-2.0
+
+BlockTradeFuLocals.lua
+
+Core.lua

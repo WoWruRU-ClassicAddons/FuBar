@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffoRA2Cooldown|r|cff00ff00Fu|r
+## Notes: Shows current oRA2 cooldowns
+## Notes-ruRU: Показывает текущие oRA2 кулдауны
+## Author: Roartindon/Silvermoon
+## X-Category: Raid
+## Dependencies: FuBar, oRA2
+## OptionalDeps: Ace2, DewdropLib, TabletLib, FuBarPlugin-2.0
+## SavedVariables: oRA2CooldownFuDB
+## Version: 2.0
+## LoadOnDemand: 1
+
+oRA2CooldownFuLocals.lua
+
+oRA2CooldownFu.lua
