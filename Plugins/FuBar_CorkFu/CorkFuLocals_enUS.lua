@@ -1,4 +1,4 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 
 L:RegisterTranslations("enUS", function() return {
 	["Argent Dawn Commission"] = true,

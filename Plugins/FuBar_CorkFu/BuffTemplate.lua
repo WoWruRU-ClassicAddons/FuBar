@@ -1,9 +1,9 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 local AceOO = AceLibrary("AceOO-2.0")
 local seaura = AceLibrary("SpecialEvents-Aura-2.0")
 local selearn = AceLibrary("SpecialEvents-LearnSpell-2.0")
 local tablet = AceLibrary("Tablet-2.0")
-local BS = AceLibrary("Babble-Spell-2.0")
+local BS = AceLibrary("Babble-Spell-2.2")
 local chips = AceLibrary("PaintChips-2.0")
 local core = FuBar_CorkFu
 

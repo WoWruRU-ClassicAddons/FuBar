@@ -1,9 +1,9 @@
 AnkhTimerFu = AceLibrary("AceAddon-2.0"):new("AceEvent-2.0", "AceConsole-2.0", "AceDB-2.0", "FuBarPlugin-2.0")
 
-local L = AceLibrary("AceLocale-2.0"):new("AnkhTimerFu")
+local L = AceLibrary("AceLocale-2.2"):new("AnkhTimerFu")
 local tablet = AceLibrary("Tablet-2.0")
 local dewdrop = AceLibrary("Dewdrop-2.0")
-local BS = AceLibrary("Babble-Spell-2.0")
+local BS = AceLibrary("Babble-Spell-2.2")
 local crayon = AceLibrary("Crayon-2.0")
 
 AnkhTimerFu:RegisterDB("AnkhTimerFuDB")
@@ -175,7 +175,7 @@ function AnkhTimerFu:GetTalentCooldown()
             nameTalent, icon, iconx, icony, currRank, maxRank = GetTalentInfo(talent, talentIdx)
             
             if (nameTalent) then
-                if (nameTalent == BS"Improved Reincarnation") then
+                if (nameTalent == BS["Improved Reincarnation"]) then
                     talentPoints = currRank
                 end
             end

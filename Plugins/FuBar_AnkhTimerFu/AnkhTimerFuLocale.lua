@@ -1,4 +1,4 @@
-local L = AceLibrary("AceLocale-2.0"):new("AnkhTimerFu")
+local L = AceLibrary("AceLocale-2.2"):new("AnkhTimerFu")
 
 L:RegisterTranslations("enUS", function() return {
 	["Ankh Count Check"] = true,

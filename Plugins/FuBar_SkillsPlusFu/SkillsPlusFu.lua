@@ -1,8 +1,8 @@
 SkillsPlusFu = AceLibrary("AceAddon-2.0"):new("FuBarPlugin-2.0", "AceConsole-2.0", "AceDB-2.0", "AceEvent-2.0", "AceHook-2.0")
 -- variables
 local L = AceLibrary("AceLocale-2.1"):GetInstance("SkillsPlusFu", true)
-local BR = AceLibrary("Babble-Race-2.0")
-local BS = AceLibrary("Babble-Spell-2.0")
+local BR = AceLibrary("Babble-Race-2.2")
+local BS = AceLibrary("Babble-Spell-2.2")
 local tablet = AceLibrary("Tablet-2.0")
 local dewdrop = AceLibrary("Dewdrop-2.0")
 local metrognome = AceLibrary("Metrognome-2.0") 
@@ -142,10 +142,10 @@ function SkillsPlusFu:OnEnable()
 	-- variables
 	toonSaveKey = GetCVar('realmName')..'|'..UnitName('player')
 	local toonRace = UnitRace('player')
-	if (toonRace == BR"Orc") or
-		(toonRace == BR"Tauren") or
-		(toonRace == BR"Troll") or
-		(toonRace == BR"Undead") then 
+	if (toonRace == BR["Orc"]) or
+		(toonRace == BR["Tauren"]) or
+		(toonRace == BR["Troll"]) or
+		(toonRace == BR["Undead"]) then 
 		toonFaction = L["SP_FACTION_HORDE"] 
 else toonFaction = L["SP_FACTION_ALLIANCE"] end
 	self:UpdateToonInfo()
@@ -297,117 +297,117 @@ end
 -- skills management
 
 function SkillsPlusFu:AddProfessionMenu(skillName)
-	if (skillName == BS"Alchemy") then
+	if (skillName == BS["Alchemy"]) then
 		dewdrop:AddLine(
-			'text', BS"Alchemy",
-			'func', function() CastSpellByName(BS"Alchemy")
-				self:UpdateText(BS"Alchemy",BS:GetSpellIcon("Alchemy"))
+			'text', BS["Alchemy"],
+			'func', function() CastSpellByName(BS["Alchemy"])
+				self:UpdateText(BS["Alchemy"],BS:GetSpellIcon("Alchemy"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Blacksmithing") then
+	if (skillName == BS["Blacksmithing"]) then
 		dewdrop:AddLine(
-			'text', BS"Blacksmithing",
-			'func', function() CastSpellByName(BS"Blacksmithing")
-				self:UpdateText(BS"Blacksmithing",BS:GetSpellIcon("Blacksmithing"))
+			'text', BS["Blacksmithing"],
+			'func', function() CastSpellByName(BS["Blacksmithing"])
+				self:UpdateText(BS["Blacksmithing"],BS:GetSpellIcon("Blacksmithing"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Cooking") then
+	if (skillName == BS["Cooking"]) then
 		dewdrop:AddLine(
-			'text', BS"Cooking",
-			'func', function() CastSpellByName(BS"Cooking")
-				self:UpdateText(BS"Cooking",BS:GetSpellIcon("Cooking"))
+			'text', BS["Cooking"],
+			'func', function() CastSpellByName(BS["Cooking"])
+				self:UpdateText(BS["Cooking"],BS:GetSpellIcon("Cooking"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Enchanting") then
+	if (skillName == BS["Enchanting"]) then
 		dewdrop:AddLine(
-			'text', BS"Disenchant",
-			'func', function() CastSpellByName(BS"Disenchant")
-				self:UpdateText(BS"Disenchant",BS:GetSpellIcon("Disenchant"))
+			'text', BS["Disenchant"],
+			'func', function() CastSpellByName(BS["Disenchant"])
+				self:UpdateText(BS["Disenchant"],BS:GetSpellIcon("Disenchant"))
 			end,
 			'arg1', self
 		)
 		dewdrop:AddLine(
-			'text', BS"Enchanting",
-			'func', function() CastSpellByName(BS"Enchanting")
-				self:UpdateText(BS"Enchanting",BS:GetSpellIcon("Enchanting"))
-			end,
-			'arg1', self
-		)
-	end
-	if (skillName == BS"Engineering") then
-		dewdrop:AddLine(
-			'text', BS"Engineering",
-			'func', function() CastSpellByName(BS"Engineering")
-				self:UpdateText(BS"Engineering",BS:GetSpellIcon("Engineering"))
+			'text', BS["Enchanting"],
+			'func', function() CastSpellByName(BS["Enchanting"])
+				self:UpdateText(BS["Enchanting"],BS:GetSpellIcon("Enchanting"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"First Aid") then
+	if (skillName == BS["Engineering"]) then
 		dewdrop:AddLine(
-			'text', BS"First Aid",
-			'func', function() CastSpellByName(BS"First Aid")
-				self:UpdateText(BS"First Aid",BS:GetSpellIcon("First Aid"))
+			'text', BS["Engineering"],
+			'func', function() CastSpellByName(BS["Engineering"])
+				self:UpdateText(BS["Engineering"],BS:GetSpellIcon("Engineering"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Fishing") then
+	if (skillName == BS["First Aid"]) then
 		dewdrop:AddLine(
-			'text', BS"Fishing",
-			'func', function() CastSpellByName(BS"Fishing")
-				self:UpdateText(BS"Fishing",BS:GetSpellIcon("Fishing"))
+			'text', BS["First Aid"],
+			'func', function() CastSpellByName(BS["First Aid"])
+				self:UpdateText(BS["First Aid"],BS:GetSpellIcon("First Aid"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Leatherworking") then
+	if (skillName == BS["Fishing"]) then
 		dewdrop:AddLine(
-			'text', BS"Leatherworking",
-			'func', function() CastSpellByName(BS"Leatherworking")
-				self:UpdateText(BS"Leatherworking",BS:GetSpellIcon("Leatherworking"))
+			'text', BS["Fishing"],
+			'func', function() CastSpellByName(BS["Fishing"])
+				self:UpdateText(BS["Fishing"],BS:GetSpellIcon("Fishing"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Lockpicking") then
+	if (skillName == BS["Leatherworking"]) then
 		dewdrop:AddLine(
-			'text', BS"Lockpicking",
-			'func', function() CastSpellByName(BS"Pick Lock")
-				self:UpdateText(BS"Pick Lock",BS:GetSpellIcon("Pick Lock"))
+			'text', BS["Leatherworking"],
+			'func', function() CastSpellByName(BS["Leatherworking"])
+				self:UpdateText(BS["Leatherworking"],BS:GetSpellIcon("Leatherworking"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Mining") then
+	if (skillName == BS["Lockpicking"]) then
 		dewdrop:AddLine(
-			'text', BS"Smelting",
-			'func', function() CastSpellByName(BS"Smelting")
-				self:UpdateText(BS"Smelting",BS:GetSpellIcon("Smelting"))
+			'text', BS["Lockpicking"],
+			'func', function() CastSpellByName(BS["Pick Lock"])
+				self:UpdateText(BS["Pick Lock"],BS:GetSpellIcon("Pick Lock"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Poisons") then
+	if (skillName == BS["Mining"]) then
 		dewdrop:AddLine(
-			'text', BS"Poisons",
-			'func', function() CastSpellByName(BS"Poisons")
-				self:UpdateText(BS"Poisons",BS:GetSpellIcon("Poisons"))
+			'text', BS["Smelting"],
+			'func', function() CastSpellByName(BS["Smelting"])
+				self:UpdateText(BS["Smelting"],BS:GetSpellIcon("Smelting"))
 			end,
 			'arg1', self
 		)
 	end
-	if (skillName == BS"Tailoring") then
+	if (skillName == BS["Poisons"]) then
 		dewdrop:AddLine(
-			'text', BS"Tailoring",
-			'func', function() CastSpellByName(BS"Tailoring")
-				self:UpdateText(BS"Tailoring",BS:GetSpellIcon("Tailoring"))
+			'text', BS["Poisons"],
+			'func', function() CastSpellByName(BS["Poisons"])
+				self:UpdateText(BS["Poisons"],BS:GetSpellIcon("Poisons"))
+			end,
+			'arg1', self
+		)
+	end
+	if (skillName == BS["Tailoring"]) then
+		dewdrop:AddLine(
+			'text', BS["Tailoring"],
+			'func', function() CastSpellByName(BS["Tailoring"])
+				self:UpdateText(BS["Tailoring"],BS:GetSpellIcon("Tailoring"))
 			end,
 			'arg1', self
 		)
@@ -434,14 +434,14 @@ function SkillsPlusFu:OnMenuRequest(level, value)
 end
 
 function SkillsPlusFu:SaveProfession(skillName,skillRank,skillMaxRank,skillModifier)
-	if (skillName == BS"Alchemy") or
-		(skillName == BS"Blacksmithing") or
-		(skillName == BS"Cooking") or
-		(skillName == BS"Enchanting") or
-		(skillName == BS"Enchanting") or
-		(skillName == BS"First Aid") or
-		(skillName == BS"Leatherworking") or
-		(skillName == BS"Tailoring") then
+	if (skillName == BS["Alchemy"]) or
+		(skillName == BS["Blacksmithing"]) or
+		(skillName == BS["Cooking"]) or
+		(skillName == BS["Enchanting"]) or
+		(skillName == BS["Enchanting"]) or
+		(skillName == BS["First Aid"]) or
+		(skillName == BS["Leatherworking"]) or
+		(skillName == BS["Tailoring"]) then
 		if (self.db.profile.skillsSave[toonSaveKey] == nil) then
 			self.db.profile.skillsSave[toonSaveKey] = {}
 		end

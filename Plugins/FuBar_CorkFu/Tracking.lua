@@ -1,8 +1,8 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 local selearn = AceLibrary("SpecialEvents-LearnSpell-2.0")
 local tablet = AceLibrary("Tablet-2.0")
 local dewdrop = AceLibrary("Dewdrop-2.0")
-local BS = AceLibrary("Babble-Spell-2.0")
+local BS = AceLibrary("Babble-Spell-2.2")
 
 local core, mybuff = FuBar_CorkFu, -1
 local defaultspell = BS["Find Herbs"]
@@ -24,7 +24,7 @@ local icons, spells = {}, {
 for i,v in pairs(spells) do icons[v] = i end
 
 
-local track = core:NewModule(L"Tracking")
+local track = core:NewModule(L["Tracking"])
 track.target = "Custom"
 
 

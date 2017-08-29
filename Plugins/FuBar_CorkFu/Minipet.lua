@@ -1,13 +1,13 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 local pt = PeriodicTableEmbed:GetInstance("1")
 local tablet = AceLibrary("Tablet-2.0")
 local core = FuBar_CorkFu
 
 local loc = {
-	nicename = L"Minipet",
-	stone = L"Hearthstone",
-	astral = L"Astral Recall",
-	teleport = L"Teleport"
+	nicename = L["Minipet"],
+	stone = L["Hearthstone"],
+	astral = L["Astral Recall"],
+	teleport = L["Teleport"]
 }
 local icon, needpet, state = "Interface\\Icons\\Ability_Seal", true
 

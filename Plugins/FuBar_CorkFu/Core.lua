@@ -5,14 +5,14 @@ BINDING_NAME_CORKFU_CORKFIRST = "Put a cork in it!"
 --      Are you local?      --
 ------------------------------
 
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 local AceOO = AceLibrary("AceOO-2.0")
 local selearn = AceLibrary("SpecialEvents-LearnSpell-2.0")
 local compost = AceLibrary("Compost-2.0")
 local dewdrop = AceLibrary("Dewdrop-2.0")
 local tablet = AceLibrary("Tablet-2.0")
 local chips = AceLibrary("PaintChips-2.0")
-local BC = AceLibrary("Babble-Class-2.0")
+local BC = AceLibrary("Babble-Class-2.2")
 
 local groupthresh = 3
 local templates, menus, menus3 = {}
@@ -21,17 +21,17 @@ local xpath = "Interface\\AddOns\\FuBar_CorkFu\\X.tga"
 local sortbyname = function(a,b) return a and b and a:ToString() < b:ToString() end
 local classes = {"Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"}
 local loc = {
-	nofilter = L"No Filter",
-	disabled = L"Disabled",
-	headerunit = L"Unit ",
-	headerparty = L"Party ",
-	targetplayer = L"Target Player",
-	targetnpc = L"Target NPC",
-	unit = L"Unit",
-	class = L"Class",
-	party = L"Party",
-	everyone = L"Everyone",
-	rescanall = L"Rescan All",
+	nofilter = L["No Filter"],
+	disabled = L["Disabled"],
+	headerunit = L["Unit "],
+	headerparty = L["Party "],
+	targetplayer = L["Target Player"],
+	targetnpc = L["Target NPC"],
+	unit = L["Unit"],
+	class = L["Class"],
+	party = L["Party"],
+	everyone = L["Everyone"],
+	rescanall = L["Rescan All"],
 }
 local raidunitnum, partyids = {}, {player = "Self", pet = "Pet"}
 for i=1,40 do raidunitnum["raid"..i] = i end
@@ -267,7 +267,7 @@ function FuBar_CorkFu:Menu1(level, value, inTooltip, value1, value2, value3, val
 	dewdrop:AddLine("text", loc.rescanall, "func", self.RescanAll, "arg1", self)
 
 	dewdrop:AddLine()
-	dewdrop:AddLine("text", L"FuBar options", "hasArrow", true, "value", "FuBar options")
+	dewdrop:AddLine("text", L["FuBar options"], "hasArrow", true, "value", "FuBar options")
 
 	compost:Reclaim(sortlist)
 end

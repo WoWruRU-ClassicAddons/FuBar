@@ -1,23 +1,23 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
-local BS = AceLibrary("Babble-Spell-2.0")
-local BZ = AceLibrary("Babble-Zone-2.0")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
+local BS = AceLibrary("Babble-Spell-2.2")
+local BZ = AceLibrary("Babble-Zone-2.2")
 local seaura = AceLibrary("SpecialEvents-Aura-2.0")
 local pt = PeriodicTableEmbed:GetInstance("1")
 local tablet = AceLibrary("Tablet-2.0")
 local core = FuBar_CorkFu
 
 local loc = {
-	nicename = L"Argent Dawn Commission",
-	buff = L"Argent Dawn Commission",
+	nicename = L["Argent Dawn Commission"],
+	buff = L["Argent Dawn Commission"],
 }
 local buff, icon, buffed = loc.buff, "Interface\\Icons\\INV_Jewelry_Talisman_07"
 
 -- Add localized zone names directly into this table!
 local zones = {
-	BZ"Western Plaguelands",
-	BZ"Eastern Plaguelands",
-	BZ"Stratholme",
-	BZ"Scholomance",
+	BZ["Western Plaguelands"],
+	BZ["Eastern Plaguelands"],
+	BZ["Stratholme"],
+	BZ["Scholomance"],
 }
 
 

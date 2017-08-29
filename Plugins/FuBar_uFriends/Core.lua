@@ -1,9 +1,9 @@
 local compost = AceLibrary("Compost-2.0")
 local dewdrop = AceLibrary("Dewdrop-2.0")
 local tablet = AceLibrary("Tablet-2.0")
-local blclass = AceLibrary("Babble-Class-2.0")
+local blclass = AceLibrary("Babble-Class-2.2")
 
-local L = AceLibrary("AceLocale-2.0"):new("uFriends")
+local L = AceLibrary("AceLocale-2.2"):new("uFriends")
 
 uFriends = AceLibrary("AceAddon-2.0"):new("AceEvent-2.0", "FuBarPlugin-2.0", "AceDB-2.0")
 uFriends.hasIcon = true
@@ -29,7 +29,7 @@ function uFriends:OnDisable()
 end
 
 function uFriends:CHAT_MSG_SYSTEM()
-    if (string.find(arg1, L"has come online") or string.find(arg1, L"has gone offline")) then
+    if (string.find(arg1, L["has come online"]) or string.find(arg1, L["has gone offline"])) then
         self:OnDataUpdate()
     end
 end
@@ -77,30 +77,30 @@ function uFriends:UpdateText()
     elseif (self.total > 0) then
         self:SetText(string.format("0/%d", self.total))
     else
-        self:SetText(L"No Friends")
+        self:SetText(L["No Friends"])
     end
 end
 
 
 function uFriends:OnTooltipUpdate()
     if (self.total > 0) then
-        tablet:SetTitle(L"Friends")
+        tablet:SetTitle(L["Friends"])
         local cat
         local nCats = (self.db.profile.showNotes and 4) or 3
 
         cat = tablet:AddCategory("columns", nCats)
         if (nCats == 3) then
             cat:AddCategory(
-            "text", L"Name",
-            "text2", L"Level",
-            "text3", L"Area"
+            "text", L["Name"],
+            "text2", L["Level"],
+            "text3", L["Area"]
             )
         else
             cat:AddCategory(
-            "text", L"Name",
-            "text2", L"Level",
-            "text3", L"Note",
-            "text4", L"Area"
+            "text", L["Name"],
+            "text2", L["Level"],
+            "text3", L["Note"],
+            "text4", L["Area"]
             )
         end
 
@@ -131,7 +131,7 @@ function uFriends:OnTooltipUpdate()
             end
         end
     else
-        tablet:AddCategory("text", L"No Friends Online")
+        tablet:AddCategory("text", L["No Friends Online"])
     end
 end
 

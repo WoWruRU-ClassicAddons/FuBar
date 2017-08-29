@@ -1,4 +1,4 @@
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
 local gratuity = AceLibrary("Gratuity-2.0")
 local findstr = string.gsub(DURABILITY_TEMPLATE, "%%[^%s]+", "(.+)")
 local abacus = AceLibrary("Abacus-2.0")

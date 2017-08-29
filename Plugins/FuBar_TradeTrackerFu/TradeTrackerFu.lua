@@ -2,7 +2,7 @@ local Tablet = AceLibrary("Tablet-2.0")
 local Dewdrop = AceLibrary("Dewdrop-2.0")
 local Crayon = AceLibrary("Crayon-2.0")
 local L = AceLibrary("AceLocale-2.2"):new("FuBar_TradeTrackerFu")
-local BS = AceLibrary("Babble-Spell-2.0")
+local BS = AceLibrary("Babble-Spell-2.2")
 
 TradeTrackerFu = AceLibrary("AceAddon-2.0"):new("AceEvent-2.0", "AceDB-2.0", "FuBarPlugin-2.0")
 
@@ -21,7 +21,7 @@ local _INV_ = {};
 local _CATTOGGLE_ = false;
 
 local _SKILLS_ = {"tradeskillalchemy", "tradeskillblacksmithing", "tradeskillcooking", "tradeskillenchanting", "tradeskillengineering", "tradeskillfirstaid", "tradeskillleatherworking", "tradeskilltailoring", "tradeskillpoison", "tradeskillsmelting"};
-local _SKILLSNAMES_ = {BS"Alchemy", BS"Blacksmithing", BS"Cooking", BS"Enchanting", BS"Engineering", BS"First Aid", BS"Leatherworking", BS"Tailoring", BS"Poison", BS"Smelting"};
+local _SKILLSNAMES_ = {BS["Alchemy"], BS["Blacksmithing"], BS["Cooking"], BS["Enchanting"], BS["Engineering"], BS["First Aid"], BS["Leatherworking"], BS["Tailoring"], BS["Poison"], BS["Smelting"]};
 
 local _GATHER_  = {"gatherskillfishing", "gatherskilldisenchant", "gatherskillherbalism", "gatherskillmining", "gatherskillskinning"};
 

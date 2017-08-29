@@ -1,7 +1,7 @@
 local _, c = UnitClass("player")
 if c ~= "WARLOCK" then return end
 
-local BS = AceLibrary("Babble-Spell-2.0")
+local BS = AceLibrary("Babble-Spell-2.2")
 local selearn = AceLibrary("SpecialEvents-LearnSpell-2.0")
 local seaura = AceLibrary("SpecialEvents-Aura-2.0")
 local tablet = AceLibrary("Tablet-2.0")
@@ -11,7 +11,7 @@ local gone = true
 local icon = "Interface\\Icons\\Spell_Shadow_GatherShadows"
 local core = FuBar_CorkFu
 
-local slink = core:NewModule(BS"Soul Link")
+local slink = core:NewModule(BS["Soul Link"])
 slink.target = "Self"
 
 
@@ -38,7 +38,7 @@ end
 ----------------------------
 
 function slink:ItemValid()
-	return selearn:SpellKnown(BS"Soul Link")
+	return selearn:SpellKnown(BS["Soul Link"])
 end
 
 
@@ -54,7 +54,7 @@ end
 
 function slink:PutACorkInIt()
 	if self:ItemValid() and self:UnitValid("pet") and not gone then
-		CastSpellByName(BS"Soul Link")
+		CastSpellByName(BS["Soul Link"])
 		return true
 	end
 end
@@ -64,7 +64,7 @@ function slink:OnTooltipUpdate()
 	if not self:ItemValid() or not self:UnitValid("pet") or gone or self.db.profile["Filter Everyone"] == -1 then return end
 
 	local cat = tablet:AddCategory("hideBlankLine", true)
-	cat:AddLine("text", BS"Soul Link", "hasCheck", true, "checked", true, "checkIcon", icon,
+	cat:AddLine("text", BS["Soul Link"], "hasCheck", true, "checked", true, "checkIcon", icon,
 		"func", self.PutACorkInIt, "arg1", self)
 end
 
@@ -80,7 +80,7 @@ end
 ------------------------------
 
 function slink:SLink()
-	if seaura:UnitHasBuff("pet", BS"Soul Link") then return end
+	if seaura:UnitHasBuff("pet", BS["Soul Link"]) then return end
 	gone = false
 	self:TriggerEvent("CorkFu_Update")
 end
@@ -92,7 +92,7 @@ end
 
 
 function slink:SpecialEvents_UnitBuffGained(unit, buff)
-	if unit == "pet" and buff == BS"Soul Link" then
+	if unit == "pet" and buff == BS["Soul Link"] then
     gone = true
     self:TriggerEvent("CorkFu_Update")
   end
@@ -100,5 +100,5 @@ end
 
 
 function slink:SpecialEvents_UnitBuffLost(unit, buff)
-	if unit == "pet" and buff == BS"Soul Link" then self:SLink() end
+	if unit == "pet" and buff == BS["Soul Link"] then self:SLink() end
 end

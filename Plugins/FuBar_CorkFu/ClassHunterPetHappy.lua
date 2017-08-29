@@ -1,8 +1,8 @@
 local _, c = UnitClass("player")
 if c ~= "HUNTER" then return end
 
-local L = AceLibrary("AceLocale-2.0"):new("CorkFu")
-local BS = AceLibrary("Babble-Spell-2.0")
+local L = AceLibrary("AceLocale-2.2"):new("CorkFu")
+local BS = AceLibrary("Babble-Spell-2.2")
 local selearn = AceLibrary("SpecialEvents-LearnSpell-2.0")
 local seaura = AceLibrary("SpecialEvents-Aura-2.0")
 local tablet = AceLibrary("Tablet-2.0")
@@ -10,7 +10,7 @@ local tablet = AceLibrary("Tablet-2.0")
 local icon = "Interface\\Icons\\Ability_Hunter_BeastTraining"
 local core, happyness = FuBar_CorkFu
 
-local happy = core:NewModule(L"Pet Happiness")
+local happy = core:NewModule(L["Pet Happiness"])
 happy.target = "Self"
 
 
@@ -39,7 +39,7 @@ end
 ----------------------------
 
 function happy:ItemValid()
-	return selearn:SpellKnown(BS"Feed Pet")
+	return selearn:SpellKnown(BS["Feed Pet"])
 end
 
 
@@ -82,7 +82,7 @@ end
 ------------------------------
 
 function happy:UNIT_HAPPINESS()
-	if seaura:UnitHasBuff("pet", L"Feed Pet Effect") then return end
+	if seaura:UnitHasBuff("pet", L["Feed Pet Effect"]) then return end
 
 	local h = GetPetHappiness()
 	happyness = h ~= 3
@@ -96,7 +96,7 @@ end
 
 
 function happy:SpecialEvents_UnitBuffGained(unit, buff)
-	if unit == "pet" and buff == L"Feed Pet Effect" then
+	if unit == "pet" and buff == L["Feed Pet Effect"] then
 		happyness = "Feeding" --Кормление
 		self:TriggerEvent("CorkFu_Update")
 	end
@@ -104,5 +104,5 @@ end
 
 
 function happy:SpecialEvents_UnitBuffLost(unit, buff)
-	if unit == "pet" and buff == L"Feed Pet Effect" then self:UNIT_HAPPINESS() end
+	if unit == "pet" and buff == L["Feed Pet Effect"] then self:UNIT_HAPPINESS() end
 end

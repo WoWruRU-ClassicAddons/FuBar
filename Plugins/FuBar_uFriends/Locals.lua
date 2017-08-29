@@ -1,4 +1,4 @@
-local L = AceLibrary("AceLocale-2.0"):new("uFriends")
+local L = AceLibrary("AceLocale-2.2"):new("uFriends")
 
 L:RegisterTranslations("enUS", function() return {
     ["Invite"] = true,
